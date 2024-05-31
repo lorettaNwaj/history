@@ -6,9 +6,9 @@ body
   align-items: center; 
   font-family: 'Calibri', sans-serif; 
 }
-#title {
-    margin-top: 70px;
-    margin-left: 850px; /* Adjust this value as needed */
+.title {
+    margin-top: 5%;
+    text-align: center;
     font-size: 24px;
     font-weight: bold;
     color: black;
@@ -18,7 +18,7 @@ body
     display: flex;
     width: 100%;
     height: calc(80vh - 20px);
-    margin-top: 50px;
+    margin-top: 0.5%;
 }
 #text-section {
     flex: 0.3;
@@ -29,13 +29,16 @@ body
     font-family: 'Inconsolata', sans-serif;
     text-align: justify;
 }
+
 #map { flex: 1; }
 
-#slider {
+#slider{
     width: 50%;
     margin: 20px auto;
-    margin-left: 750px; /* Adjust this value as needed */
+    justify-content: center;
+    align-content: center;
     display: block;
+    background-color: red;
     -webkit-appearance: none;
     appearance: none;
     height: 10px;
@@ -65,7 +68,7 @@ body
 }
 #year-label {
     margin-top: -15px;
-    margin-left: 1150px; /* Adjust this value as needed */
+    text-align: center;
     font-size: 15px;
     background-color: white;
     padding: 5px 10px;
@@ -101,7 +104,7 @@ body
 }
 #tabs {
     background-color: grey;
-    width: 90%; /* Set the width of the tabs container */
+    width: 95%; /* Set the width of the tabs container */
 
     color: white; /* Set text color to white for visibility */
     padding: 10px;
@@ -129,5 +132,8 @@ body
     height: auto; /* Maintain aspect ratio */
     border: none; /* Remove border from the image */
 }
-
+#animation-content {
+    width: 1920px;
+    height: 727.188px;
+}
 
